@@ -1,0 +1,21 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/shivramsriramulu/Desktop/mlflow/jobs/scala/etl.scala:20:21: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m    (unix_timestamp(endedAt) - unix_timestamp(startedAt)) / 60[0m
+[0m[[0m[31merror[0m] [0m[0m                    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivramsriramulu/Desktop/mlflow/jobs/scala/etl.scala:20:47: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m    (unix_timestamp(endedAt) - unix_timestamp(startedAt)) / 60[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivramsriramulu/Desktop/mlflow/jobs/scala/etl.scala:50:82: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m      val dfTransformed = df.withColumn("duration_minutes", calculateDuration(col("started_at"), col("ended_at")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/Users/shivramsriramulu/Desktop/mlflow/jobs/scala/etl.scala:50:101: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : org.apache.spark.sql.Column[0m
+[0m[[0m[31merror[0m] [0m[0m required: String[0m
+[0m[[0m[31merror[0m] [0m[0m      val dfTransformed = df.withColumn("duration_minutes", calculateDuration(col("started_at"), col("ended_at")))[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
